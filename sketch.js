@@ -50,14 +50,14 @@ function preload()
 }
 
 function setup() {
-	createCanvas(1000, 700);
+	createCanvas(1500, 700);
 
 
 	engine = Engine.create();
 	world = engine.world;
 
-  ball=new stone(50,200);
-  chain=new rope (ball.body,{x:100,y:250},10);
+  ball=new stone(1300,200);
+  chain=new rope (ball.body,{x:1260,y:225},10);
 
 
 	plane1=new plane (200,585);
